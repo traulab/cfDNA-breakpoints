@@ -4,7 +4,7 @@ Source code for PrimerNuc online tool available at http://www.primer-suite.com/p
 
 This code requires Python 3 to run.
 
-Tested on Spyder (Python 3.8) running on Windows 7 Enterprise operating                                                                 
+Tested on Spyder (Python 3.8) running on Windows 7 Enterprise operating system                                                                
 Tested using Python 3.4.3 on Linux server.
 
 
