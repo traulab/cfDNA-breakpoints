@@ -42,8 +42,15 @@ chr1	1525652	1526652	1	BRA01	1526501	849	-151	within	'n/a'	0.32
 chr1	1525652	1526652	1	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                                  
 
 
-Samples include: CH01, BRA01, BRE01, COL01 & BBC01                                                                                  
-To alter the sample being search change edit the _**PrimerNucleosome.py**_ script file at line 222:
+Samples include: 
+
+CH01                                                                                                                                     
+BRA01                                                                                                                                   
+BRE01                                                                                                                                   
+COL01                                                                                                                                   
+BBC01                                                                                                                                   
+
+To alter the sample being searched, change edit the _**PrimerNucleosome.py**_ script file at line 222:
 
 results = Nucleosome("input.bed", "output.txt", "BRA01") # input file, output file, sample name
 
