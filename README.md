@@ -38,16 +38,19 @@ Results table is formatted with the following columns:
 
 Example input:
 
-chr1	1525652	1526652	descriptor
+chr1	10000000	10000700	region
+chr1	1000000	1000000	single base
 
 Example output:
 
-chr1	1525652	1526652	descriptor	BRA01	1525635	-17	-1017	5' flanking	'n/a'	0.35                                                         
-chr1	1525652	1526652	descriptor	BRA01	1525825	173	-827	within	0.64	0.3                                                             
-chr1	1525652	1526652	descriptor	BRA01	1526055	403	-597	within	0.85	0.31                                                             
-chr1	1525652	1526652	descriptor	BRA01	1526278	626	-374	within	'n/a'	0.22                                                             
-chr1	1525652	1526652	descriptor	BRA01	1526501	849	-151	within	'n/a'	0.32                                                             
-chr1	1525652	1526652	descriptor	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                         
+chr1	10000000	10000700	region	BRA01	9999792	-208	-908	5' flanking	'n/a'	0.35
+chr1	10000000	10000700	region	BRA01	10000007	7	-693	within	'n/a'	0.38
+chr1	10000000	10000700	region	BRA01	10000222	222	-478	within	'n/a'	0.26
+chr1	10000000	10000700	region	BRA01	10000439	439	-261	within	0.96	0.24
+chr1	10000000	10000700	region	BRA01	10000658	658	-42	within	0.74	0.22
+chr1	10000000	10000700	region	BRA01	10000750	750	50	3' flanking	0.64	0.21
+chr1	1000000	1000000	single base	BRA01	999850	-150	-150	5' flanking	1.28	0.18
+chr1	1000000	1000000	single base	BRA01	1000036	36	36	3' flanking	'n/a'	0.16                                                  
 
 **Note: "n/a" in the WPS column means no peak exists but greather than 370 bp (twice the mode interpeak distance from the CH01 and CA01 comprehnsive nucleosome maps of Snyder et al. (2016)) seperates the two nearest nucleosome protection peaks in this region. Additional points are placed in these regions for users to check if the lack of peak is due either to poor sequencing coverage or broader nucleosome protection.**
 
