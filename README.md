@@ -34,12 +34,12 @@ Results table is formatted with the following columns:
 
 Example output:
 
-chr1	1525652	1526652	1	BRA01	1525635	-17	-1017	5' flanking	'n/a'	0.35                                                                  
-chr1	1525652	1526652	1	BRA01	1525825	173	-827	within	0.64	0.3                                                                       
-chr1	1525652	1526652	1	BRA01	1526055	403	-597	within	0.85	0.31                                                                      
-chr1	1525652	1526652	1	BRA01	1526278	626	-374	within	'n/a'	0.22                                                                      
-chr1	1525652	1526652	1	BRA01	1526501	849	-151	within	'n/a'	0.32                                                                      
-chr1	1525652	1526652	1	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                                  
+chr1	1525652	1526652	descriptor	BRA01	1525635	-17	-1017	5' flanking	'n/a'	0.35                                                         
+chr1	1525652	1526652	descriptor	BRA01	1525825	173	-827	within	0.64	0.3                                                             
+chr1	1525652	1526652	descriptor	BRA01	1526055	403	-597	within	0.85	0.31                                                             
+chr1	1525652	1526652	descriptor	BRA01	1526278	626	-374	within	'n/a'	0.22                                                             
+chr1	1525652	1526652	descriptor	BRA01	1526501	849	-151	within	'n/a'	0.32                                                             
+chr1	1525652	1526652	descriptor	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                         
 
 
 Samples include: 
