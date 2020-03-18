@@ -29,7 +29,7 @@ Results table is formatted with the following columns:
 **Distance from end (bp)** #distance of protection peak from first base of search region                                                 
 **Within or Flanking?** #whether the peak inside the searhed region or is one of the two peaks flanking the searched region             
 **WPS (mean = 1)** #Adjusted windowed protection score (WPS divided by the mean WPS of the sample (e.g. 0.5 = half mean WPS, 2 = twice mean)                                                                                                                                  
-**Read depth (mean = 1)** #mean coverage of 180 bp around nucleosome protection peak divided by mean coverage of all bases in the sample    
+**Read depth (mean = 1)** #mean coverage of 180 bp around nucleosome protection peak divided by mean coverage of all bases in the sample (e.g. 0.06 = 6% of the mean coverage, 4.5 = 450% of the mean coverage)    
 
 
 Example output:
