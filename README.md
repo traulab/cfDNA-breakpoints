@@ -20,8 +20,8 @@ Open the **_output.txt_** file for results
 Results table is formatted with the following columns:
 
 **Chromosome** #chromosome of search region from _input.bed_                                                                       
-**Start position** (hg19) #first base of searched region from _input.bed_                                                              
-**End position** (hg19) #last base of search region from _input.bed_                                                                    
+**Start position (hg19)** #first base of searched region from _input.bed_                                                              
+**End position (hg19)** #last base of search region from _input.bed_                                                                    
 **Region descriptor** #fourth column of _input.bed_                                                                                    
 **Sample** #name of sample being search (i.e., CH01, BRA01, BRE01, COL01, BBC01)                                                         
 **Nucleosome peak position (hg19)** #Protection peak position                                                                           
