@@ -7,6 +7,8 @@ This code requires Python 3 to run.
 Tested on Spyder (Python 3.8) running on Windows 7 Enterprise operating                                                                 
 Tested using Python 3.4.3 on Linux server.
 
+**Description:**
+
 **Instructions:**
 
 Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the **_input.bed_** file 
@@ -47,11 +49,11 @@ chr1	1525652	1526652	descriptor	BRA01	1526724	1072	72	3' flanking	0.53	0.23
 
 Samples include: 
 
-CH01                                                                                                                                     
-BRA01                                                                                                                                   
-BRE01                                                                                                                                   
-COL01                                                                                                                                   
-BBC01                                                                                                                                   
+CH01 #nucleosome protection peaks from Snyder et al. (2016)                                                                             
+BRA01 #Brain cancer sample pool                                                                                                 
+BRE01 #Breast cancer sample pool                                                                                                         
+COL01 #Colorectal cancer sample pool                                                                                                    
+BBC01 #Pool of BRA01, BRE01 and COL01                                                                                                                                   
 
 To alter the sample being searched, change edit the _**PrimerNucleosome.py**_ script file at line 222:
 
