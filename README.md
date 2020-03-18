@@ -10,7 +10,7 @@ Tested using Python 3.4.3 on Linux server.
 
 **Description:**
 
-PrimerNuc is search tool that enables users to locate all predicted nucleosome protection peaks within an input chromosomal region or the two nearest protection peaks flanking a specified nucleotide position. Along with peak positions, this software outputs the adjusted WPS (WPS divided by the mean WPS of the sample pool), the adjusted sequencing depth (coverage divided by the mean coverage of the sample pool), and distances (bp) of the output peak positions to the two input nucleotide positions.
+PrimerNuc is a search tool that enables users to locate all predicted nucleosome protection peaks within an input chromosomal region or the two nearest protection peaks flanking a specified nucleotide position. Along with peak positions, this software outputs the adjusted WPS (WPS divided by the mean WPS of the sample pool), the adjusted sequencing depth (coverage divided by the mean coverage of the sample pool), and distances (bp) of the output peak positions to the two input nucleotide positions.
 
 
 **Instructions:**
