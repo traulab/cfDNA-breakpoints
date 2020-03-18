@@ -43,7 +43,7 @@ chr1	1525652	1526652	descriptor	BRA01	1526278	626	-374	within	'n/a'	0.22
 chr1	1525652	1526652	descriptor	BRA01	1526501	849	-151	within	'n/a'	0.32                                                             
 chr1	1525652	1526652	descriptor	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                         
 
-**Note: "n/a" in the WPS column means no peak exists but greather than 370 bp (twice the mode interpeak distance from the CH01 and CA01 comprehnsive nucleosome maps of Snyder et al. (2016)) seperates the two nearest nucleosome protection peaks in this region. Additional points are placed in these regions for users to check if the lack of peak is due to either poor the sequencing coverage or broader nucleosome protection.**
+**Note: "n/a" in the WPS column means no peak exists but greather than 370 bp (twice the mode interpeak distance from the CH01 and CA01 comprehnsive nucleosome maps of Snyder et al. (2016)) seperates the two nearest nucleosome protection peaks in this region. Additional points are placed in these regions for users to check if the lack of peak is due either to poor sequencing coverage or broader nucleosome protection.**
 
 Samples include: 
 
