@@ -15,7 +15,7 @@ PrimerNuc is search tool that enables users to locate all predicted nucleosome p
 
 **Instructions:**
 
-Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the **_input.bed_** file 
+Insert chromosomal regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the **_input.bed_** file 
 
 Run the _**PrimerNucleosome.py**_ script
 
