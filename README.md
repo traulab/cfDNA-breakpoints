@@ -19,7 +19,7 @@ Open the "output.txt" file for results
 
 Results table is formatted with the following columns:
 
-Chromosome #chromosome of search region from "input.bed"
+Chromosome #chromosome of search region from "input.bed"                                                                                 
 Start position (hg19) #first base of searched region from "input.bed"
 End position (hg19) #last base of search region from "input.bed"
 Region descriptor #fourth column of "input.bed"
