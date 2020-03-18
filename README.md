@@ -62,7 +62,7 @@ BRE01 #Breast cancer sample pool
 COL01 #Colorectal cancer sample pool                                                                                                    
 BBC01 #Pool of BRA01, BRE01 and COL01                                                                                                                                   
 
-To alter the sample being searched, change edit the _**PrimerNucleosome.py**_ script file at line 222:
+To alter the sample being searched, edit the _**PrimerNucleosome.py**_ script file at line 222:
 
 results = Nucleosome("input.bed", "output.txt", "BRA01") # input file, output file, sample name
 
