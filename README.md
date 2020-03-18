@@ -7,7 +7,7 @@ This code requires Python 3 to run.
 Tested on Spyder (Python 3.8) running on Windows 7 Enterprise operating
 Test using Python 3.4.3 on Linux server.
 
-Instructions:
+**Instructions:**
 
 Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the "input.bed" file 
 e.g. chr1	1000000	1000500	Descriptor
