@@ -7,7 +7,11 @@ This code requires Python 3 to run.
 Tested on Spyder (Python 3.8) running on Windows 7 Enterprise operating                                                                 
 Tested using Python 3.4.3 on Linux server.
 
+
 **Description:**
+
+PrimerNuc is search tool that enables users to locate all predicted nucleosome protection peaks within an input chromosomal region or the two nearest protection peaks flanking a specified nucleotide position. Along with peak positions, this software outputs the adjusted WPS (WPS divided by the mean WPS of the sample pool), the adjusted sequencing depth (coverage divided by the mean coverage of the sample pool), and distances (bp) of the output peak positions to the two input nucleotide positions.
+
 
 **Instructions:**
 
@@ -60,6 +64,6 @@ To alter the sample being searched, change edit the _**PrimerNucleosome.py**_ sc
 results = Nucleosome("input.bed", "output.txt", "BRA01") # input file, output file, sample name
 
 
-References:
+**References:**
 
 Snyder, M. W., Kircher, M., Hill, A. J., Daza, R. M., & Shendure, J. (2016). Cell-free DNA comprises an in vivo nucleosome footprint that informs its tissues-of-origin. Cell, 164(1-2), 57-68.
