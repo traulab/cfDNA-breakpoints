@@ -12,7 +12,7 @@ Test using Python 3.4.3 on Linux server.
 Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the "input.bed" file 
 e.g. chr1	1000000	1000500	Descriptor
 
-Run the PrimerNucleosome.py script
+Run the ** **PrimerNucleosome.py** ** script
 
 Open the "output.txt" file for results
 
@@ -40,4 +40,11 @@ chr1	1525652	1526652	1	BRA01	1526055	403	-597	within	0.85	0.31
 chr1	1525652	1526652	1	BRA01	1526278	626	-374	within	'n/a'	0.22                                                                      
 chr1	1525652	1526652	1	BRA01	1526501	849	-151	within	'n/a'	0.32                                                                      
 chr1	1525652	1526652	1	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                                  
+
+
+Samples include: CH01, BRA01, BRE01, COL01 & BBC01                                                                                  
+To alter the sample being search change edit the ** **PrimerNucleosome.py** ** script file at line 222:
+
+results = Nucleosome("input.bed", "output.txt", "BRA01") # input file, output file, sample name
+
 
