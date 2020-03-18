@@ -43,7 +43,7 @@ chr1	1525652	1526652	descriptor	BRA01	1526278	626	-374	within	'n/a'	0.22
 chr1	1525652	1526652	descriptor	BRA01	1526501	849	-151	within	'n/a'	0.32                                                             
 chr1	1525652	1526652	descriptor	BRA01	1526724	1072	72	3' flanking	0.53	0.23                                                         
 
-**Note: "n/a" in the WPS column means no peak was found in this region but greather than 370 bp seperates the two nearest nucleosome protection peaks in this region. Additional points are placed in these regions for users to check if the lack of peak is due to either poor the sequencing coverage or broader nucleosome protection.**
+**Note: "n/a" in the WPS column means no peak exists but greather than 370 bp (twice the mode interpeak distance from the CH01 and CA01 comprehnsive nucleosome maps of Snyder et al. (2016)) seperates the two nearest nucleosome protection peaks in this region. Additional points are placed in these regions for users to check if the lack of peak is due to either poor the sequencing coverage or broader nucleosome protection.**
 
 Samples include: 
 
@@ -56,3 +56,8 @@ BBC01
 To alter the sample being searched, change edit the _**PrimerNucleosome.py**_ script file at line 222:
 
 results = Nucleosome("input.bed", "output.txt", "BRA01") # input file, output file, sample name
+
+
+References:
+
+Snyder, M. W., Kircher, M., Hill, A. J., Daza, R. M., & Shendure, J. (2016). Cell-free DNA comprises an in vivo nucleosome footprint that informs its tissues-of-origin. Cell, 164(1-2), 57-68.
