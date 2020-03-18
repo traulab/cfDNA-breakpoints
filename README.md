@@ -9,20 +9,20 @@ Tested using Python 3.4.3 on Linux server.
 
 **Instructions:**
 
-Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the "input.bed" file 
+Insert chromosomale regions (GRCh37/hg19 assembly) to search for nucleosome protection peaks into the _input.bed_ file 
 e.g. chr1	1000000	1000500	Descriptor
 
 Run the _**PrimerNucleosome.py**_ script
 
-Open the "output.txt" file for results
+Open the _output.txt_ file for results
 
 
 Results table is formatted with the following columns:
 
-**Chromosome** #chromosome of search region from "input.bed"                                                                        
-**Start position** (hg19) #first base of searched region from "input.bed"                                                               
-**End position** (hg19) #last base of search region from "input.bed"                                                                     
-**Region descriptor** #fourth column of "input.bed"                                                                                     
+**Chromosome** #chromosome of search region from _input.bed_                                                                        
+**Start position** (hg19) #first base of searched region from _input.bed_                                                               
+**End position** (hg19) #last base of search region from _input.bed_                                                                     
+**Region descriptor** #fourth column of _input.bed_                                                                                     
 **Sample** #name of sample being search (i.e., CH01, BRA01, BRE01, COL01, BBC01)                                                         
 **Nucleosome peak position (hg19)** #Protection peak position                                                                           
 **Distance from start (bp)** #distance of protection peak from first base of search region                                               
